@@ -1,0 +1,103 @@
+body {
+    color: #fff;
+    background: #17181c;
+    font-family: sans-serif;
+}
+
+.bodyWhite {
+  color: #000;
+  background: #e4e0d9;
+}
+
+header {
+    padding: 10px 30px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .copyright {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+footer .copyright a {
+    color: #444;
+}
+footer .copyright a:hover {
+    color: #555;
+}
+footer .copyright:before {
+    content: '©';
+}
+
+.theme-btn-i {
+  background: none;
+  border: 2px solid blueviolet;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: blueviolet;
+  transition: 0.1s;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.theme-btn-i:hover {
+  transform: scale(1.05);
+  color: #3fcc59;
+  border: 2px solid #3fcc59;
+  box-shadow: 0 0.5em 0.5em -0.4em #3fcc59;
+}
+
+.theme-active {
+  color: #3fcc59;
+  border: 2px solid #3fcc59;;
+  box-shadow: 0 0.5em 0.5em -0.4em #3fcc59;
+}
+
+.theme-btn-i:active {
+  transform: scale(1.1);
+  color: #3fcc59;
+  border: 2px solid #3fcc59;
+}
+
+#sourceItem {
+  transition: 0.1s;
+  border: 2px solid blueviolet;
+}
+
+#sourceItem:hover {
+  color: #3fcc59;
+  border: 2px solid #3fcc59;
+}
+
+#sourceItemSpan {
+  font-weight: bold;
+  color: blueviolet;
+}
+
+#sourceItem:hover #sourceItemSpan {
+  transition: 0.1s;
+  color: #3fcc59;
+}
+
+#sourceNews  {
+  margin-top: 40px;
+}
+
+@media (max-width: 940px) {
+  #sourceItemBtn {
+    flex-wrap: wrap;
+    height: 220px;
+  }
+}
